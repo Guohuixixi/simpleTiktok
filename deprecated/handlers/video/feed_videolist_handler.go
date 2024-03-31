@@ -2,11 +2,11 @@ package video
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/middleware"
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/service/video"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/middleware"
+	"simpleTiktok/models"
+	"simpleTiktok/service/video"
 	"strconv"
 	"time"
 )

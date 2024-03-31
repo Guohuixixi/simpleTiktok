@@ -2,13 +2,13 @@ package video
 
 import (
 	"fmt"
-	"github.com/ACking-you/byte_douyin_project/config"
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/service/video"
-	util2 "github.com/ACking-you/byte_douyin_project/util"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"path/filepath"
+	"simpleTiktok/config"
+	"simpleTiktok/models"
+	"simpleTiktok/service/video"
+	util2 "simpleTiktok/util"
 )
 
 var (

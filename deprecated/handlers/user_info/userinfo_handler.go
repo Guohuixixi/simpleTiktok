@@ -2,9 +2,9 @@ package user_info
 
 import (
 	"errors"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	models2 "simpleTiktok/models"
 )
 
 type UserResponse struct {

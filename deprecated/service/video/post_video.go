@@ -1,8 +1,8 @@
 package video
 
 import (
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/util"
+	"simpleTiktok/models"
+	"simpleTiktok/util"
 )
 
 // PostVideo 投稿视频
@@ -37,13 +37,13 @@ func (f *PostVideoFlow) Do() error {
 	return nil
 }
 
-//准备好参数
+// 准备好参数
 func (f *PostVideoFlow) prepareParam() {
 	f.videoName = util.GetFileUrl(f.videoName)
 	f.coverName = util.GetFileUrl(f.coverName)
 }
 
-//组合并添加到数据库
+// 组合并添加到数据库
 func (f *PostVideoFlow) publish() error {
 	video := &models.Video{
 		UserInfoId: f.userId,

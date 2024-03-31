@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"github.com/ACking-you/byte_douyin_project/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/models"
 	"strconv"
 )
 

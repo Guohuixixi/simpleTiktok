@@ -1,10 +1,10 @@
 package user_login
 
 import (
-	"github.com/ACking-you/byte_douyin_project/models"
-	user_login2 "github.com/ACking-you/byte_douyin_project/service/user_login"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/models"
+	user_login2 "simpleTiktok/service/user_login"
 )
 
 type UserRegisterResponse struct {

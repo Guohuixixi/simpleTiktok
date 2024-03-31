@@ -1,10 +1,10 @@
 package user_login
 
 import (
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/service/user_login"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/models"
+	"simpleTiktok/service/user_login"
 )
 
 type UserLoginResponse struct {

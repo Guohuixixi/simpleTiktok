@@ -2,11 +2,11 @@ package comment
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/handlers/video"
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/service/comment"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/handlers/video"
+	"simpleTiktok/models"
+	"simpleTiktok/service/comment"
 	"strconv"
 )
 

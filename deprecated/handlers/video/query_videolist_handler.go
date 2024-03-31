@@ -2,10 +2,10 @@ package video
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/service/video"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/models"
+	"simpleTiktok/service/video"
 )
 
 type ListResponse struct {

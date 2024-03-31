@@ -1,9 +1,9 @@
 package models
 
 import (
-	"github.com/ACking-you/byte_douyin_project/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"simpleTiktok/config"
 )
 
 var DB *gorm.DB

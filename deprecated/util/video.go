@@ -3,11 +3,11 @@ package util
 import (
 	"errors"
 	"fmt"
-	"github.com/ACking-you/byte_douyin_project/cache"
-	"github.com/ACking-you/byte_douyin_project/config"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
 	"log"
 	"path/filepath"
+	"simpleTiktok/cache"
+	"simpleTiktok/config"
+	models2 "simpleTiktok/models"
 	"time"
 )
 

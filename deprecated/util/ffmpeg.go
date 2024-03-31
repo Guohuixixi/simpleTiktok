@@ -9,8 +9,8 @@ import "C"
 import (
 	"errors"
 	"fmt"
-	"github.com/ACking-you/byte_douyin_project/config"
 	"log"
+	"simpleTiktok/config"
 	"unsafe"
 )
 

@@ -2,10 +2,10 @@ package user_info
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/models"
-	user_info2 "github.com/ACking-you/byte_douyin_project/service/user_info"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/models"
+	user_info2 "simpleTiktok/service/user_info"
 )
 
 type FollowerListResponse struct {

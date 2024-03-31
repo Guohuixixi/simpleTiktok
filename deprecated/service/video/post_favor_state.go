@@ -2,8 +2,8 @@ package video
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/cache"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
+	"simpleTiktok/cache"
+	models2 "simpleTiktok/models"
 )
 
 const (

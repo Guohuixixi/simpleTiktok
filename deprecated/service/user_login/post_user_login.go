@@ -2,8 +2,8 @@ package user_login
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/middleware"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
+	"simpleTiktok/middleware"
+	models2 "simpleTiktok/models"
 )
 
 // PostUserLogin 注册用户并得到token和id

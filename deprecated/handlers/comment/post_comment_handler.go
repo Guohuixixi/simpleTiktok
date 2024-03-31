@@ -3,10 +3,10 @@ package comment
 import (
 	"errors"
 	"fmt"
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/service/comment"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"simpleTiktok/models"
+	"simpleTiktok/service/comment"
 	"strconv"
 )
 

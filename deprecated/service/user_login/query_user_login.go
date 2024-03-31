@@ -2,8 +2,8 @@ package user_login
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/middleware"
-	"github.com/ACking-you/byte_douyin_project/models"
+	"simpleTiktok/middleware"
+	"simpleTiktok/models"
 )
 
 const (

@@ -2,8 +2,8 @@ package video
 
 import (
 	"errors"
-	"github.com/ACking-you/byte_douyin_project/cache"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
+	"simpleTiktok/cache"
+	models2 "simpleTiktok/models"
 )
 
 type List struct {
@@ -44,7 +44,7 @@ func (q *QueryVideoListByUserIdFlow) checkNum() error {
 	return nil
 }
 
-//注意：Video由于在数据库中没有存储作者信息，所以需要手动填充
+// 注意：Video由于在数据库中没有存储作者信息，所以需要手动填充
 func (q *QueryVideoListByUserIdFlow) packData() error {
 	err := models2.NewVideoDAO().QueryVideoListByUserId(q.userId, &q.videos)
 	if err != nil {

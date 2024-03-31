@@ -3,8 +3,8 @@ package comment
 import (
 	"errors"
 	"fmt"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/util"
+	models2 "simpleTiktok/models"
+	"simpleTiktok/util"
 )
 
 type List struct {

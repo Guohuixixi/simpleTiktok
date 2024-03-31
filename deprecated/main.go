@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ACking-you/byte_douyin_project/config"
-	"github.com/ACking-you/byte_douyin_project/router"
+	"simpleTiktok/config"
+	"simpleTiktok/router"
 )
 
 func main() {

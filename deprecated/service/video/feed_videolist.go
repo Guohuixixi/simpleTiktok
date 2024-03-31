@@ -1,8 +1,8 @@
 package video
 
 import (
-	"github.com/ACking-you/byte_douyin_project/models"
-	"github.com/ACking-you/byte_douyin_project/util"
+	"simpleTiktok/models"
+	"simpleTiktok/util"
 	"time"
 )
 

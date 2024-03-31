@@ -1,14 +1,14 @@
 package router
 
 import (
-	"github.com/ACking-you/byte_douyin_project/config"
-	comment2 "github.com/ACking-you/byte_douyin_project/handlers/comment"
-	user_info2 "github.com/ACking-you/byte_douyin_project/handlers/user_info"
-	user_login2 "github.com/ACking-you/byte_douyin_project/handlers/user_login"
-	video2 "github.com/ACking-you/byte_douyin_project/handlers/video"
-	middleware2 "github.com/ACking-you/byte_douyin_project/middleware"
-	"github.com/ACking-you/byte_douyin_project/models"
 	"github.com/gin-gonic/gin"
+	"simpleTiktok/config"
+	comment2 "simpleTiktok/handlers/comment"
+	user_info2 "simpleTiktok/handlers/user_info"
+	user_login2 "simpleTiktok/handlers/user_login"
+	video2 "simpleTiktok/handlers/video"
+	middleware2 "simpleTiktok/middleware"
+	"simpleTiktok/models"
 )
 
 func Init() *gin.Engine {

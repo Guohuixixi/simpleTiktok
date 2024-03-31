@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	models2 "github.com/ACking-you/byte_douyin_project/models"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	models2 "simpleTiktok/models"
 	"time"
 )
 

@@ -2,7 +2,7 @@ package util
 
 import (
 	"errors"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
+	models2 "simpleTiktok/models"
 )
 
 func FillCommentListFields(comments *[]*models2.Comment) error {

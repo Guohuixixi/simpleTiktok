@@ -2,7 +2,7 @@ package video
 
 import (
 	"errors"
-	models2 "github.com/ACking-you/byte_douyin_project/models"
+	models2 "simpleTiktok/models"
 )
 
 type FavorList struct {
