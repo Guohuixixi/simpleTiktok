@@ -1,4 +1,4 @@
-module github.com/ACking-you/byte_douyin_project
+module simpleTiktok
 
 go 1.16
 
